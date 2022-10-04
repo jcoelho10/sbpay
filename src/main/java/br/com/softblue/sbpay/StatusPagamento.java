@@ -4,7 +4,7 @@ package br.com.softblue.sbpay;
  * 
  * @author josen
  * 
- * Enum que mostra a situação da transação 
+ * Enum que mostra a situaï¿½ï¿½o da transaï¿½ï¿½o 
  * utilizando Status de Pagamento
  *
  */
@@ -12,8 +12,8 @@ package br.com.softblue.sbpay;
 public enum StatusPagamento {
 
 	Autorizado("Autorizado"),
-	NaoAutorizado("Não autorizado pela instituição financeira"),
-	CartaoInvalido("Cartão inválido ou bloqueado");
+	NaoAutorizado("NÃ£o autorizado pela instituiÃ§Ã£o financeira"),
+	CartaoInvalido("CartÃ£o invÃ¡lido ou bloqueado");
 	
 	String descricao;
 	

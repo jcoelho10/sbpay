@@ -6,12 +6,12 @@ import javax.validation.constraints.Pattern;
  * 
  * @author josen
  * 
- * Classe para Agrupar Dados do Cartão de Crédito
+ * Classe para Agrupar Dados do Cartï¿½o de Crï¿½dito
  *
  */
 public class DadosCartao {
 
-	@Pattern(regexp = "\\d{16}", message = "O número do cartão é inválido")
+	@Pattern(regexp = "\\d{16}", message = "O nÃºmero do cartÃ£o Ã© invÃ¡lido")
 	private String numCartao;
 	
 	public String getNumCartao() {

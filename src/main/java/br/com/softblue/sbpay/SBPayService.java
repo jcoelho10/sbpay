@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 
  * @author josen
  * 
- * Classe do Serviço de Pagamento
+ * Classe do Serviï¿½o de Pagamento
  *
  */
 
@@ -30,7 +30,7 @@ public class SBPayService {
 			Errors errors) {
 		
 		if (!AUTH_TOKEN.equals(token)) {
-			return ResponseEntity.badRequest().body(new PaymentResponse("Token inválido"));
+			return ResponseEntity.badRequest().body(new PaymentResponse("Token invÃ¡lido"));
 		}
 		
 		if (errors.hasErrors()) {
