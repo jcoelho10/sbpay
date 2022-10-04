@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 
  * @author josen
  * 
- * Classe do Servi�o de Pagamento
+ * Classe do Serviço de Pagamento
  *
  */
 

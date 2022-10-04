@@ -6,7 +6,7 @@ import javax.validation.constraints.Pattern;
  * 
  * @author josen
  * 
- * Classe para Agrupar Dados do Cart�o de Cr�dito
+ * Classe para Agrupar Dados do Cartão de Crédito
  *
  */
 public class DadosCartao {

@@ -4,7 +4,7 @@ package br.com.softblue.sbpay;
  * 
  * @author josen
  * 
- * Enum que mostra a situa��o da transa��o 
+ * Enum que mostra a situação da transação 
  * utilizando Status de Pagamento
  *
  */
